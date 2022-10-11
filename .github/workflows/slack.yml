@@ -23,15 +23,20 @@ jobs:
         # For posting a simple plain text message
         payload: |
           {
-            "text": "Deployment finished (Completed)",
+            "text": "Message ",
             "attachments": [
               {
                 "pretext": "Deployment finished",
                 "color": "28a745",
                 "fields": [
                   {
-                    "title": "Status",
+                    "title": "Release PR",
                     "short": true,
+                    "value": "https://github.com/swvl/customer-iOS-v2/pull/3804"
+                  }
+                  {
+                    "title": "Contributors",
+                    "short": false,
                     "value": "Completed"
                   }
                 ]
