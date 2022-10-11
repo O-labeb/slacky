@@ -38,7 +38,7 @@ jobs:
               },
               {
                 "pretext": "Please react to this thread with :white_check_mark: when you're done",
-                "color": "28a745",
+                "color": "6e28a7",
                 "fields": [
                   {
                     "title": "Contributors",
