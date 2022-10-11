@@ -23,37 +23,27 @@ jobs:
         # For posting a simple plain text message
         payload: |
           {
-            "text": "Message ",
+            "text": "Hello <!here> Please note we're on code freeze",
             "attachments": [
               {
-                "pretext": "Deployment finished",
+                "pretext": "You can start testing your work against the release branch",
                 "color": "28a745",
                 "fields": [
                   {
                     "title": "Release PR",
-                    "short": true,
-                    "value": "https://github.com/swvl/customer-iOS-v2/pull/3804"
-                  },
-                  {
-                    "title": "Contributors",
                     "short": false,
-                    "value": "Completed"
+                    "value": "https://github.com/swvl/customer-iOS-v2/pull/3804"
                   }
                 ]
               },
               {
-                "pretext": "Deployment finished",
+                "pretext": "Please react to this thread with :white_check_mark: when you're done",
                 "color": "28a745",
                 "fields": [
                   {
-                    "title": "Release PR",
-                    "short": true,
-                    "value": "https://github.com/swvl/customer-iOS-v2/pull/3804"
-                  },
-                  {
                     "title": "Contributors",
                     "short": false,
-                    "value": "omar\nlabib\nmohamed"
+                    "value": "* omar\n* labib\n* mohamed"
                   }
                 ]
               }
