@@ -30,7 +30,7 @@ jobs:
                 "color": "28a745",
                 "fields": [
                   {
-                    "title": "Release PR",
+                    "title": "Release PRRR",
                     "short": false,
                     "value": "https://github.com/swvl/customer-iOS-v2/pull/3804"
                   }
