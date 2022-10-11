@@ -53,7 +53,7 @@ jobs:
                   {
                     "title": "Contributors",
                     "short": false,
-                    "value": "omar/nlabib/nmohamed"
+                    "value": "omar\nlabib\nmohamed"
                   }
                 ]
               }
