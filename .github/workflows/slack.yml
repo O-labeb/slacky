@@ -40,6 +40,22 @@ jobs:
                     "value": "Completed"
                   }
                 ]
+              },
+              {
+                "pretext": "Deployment finished",
+                "color": "28a745",
+                "fields": [
+                  {
+                    "title": "Release PR",
+                    "short": true,
+                    "value": "https://github.com/swvl/customer-iOS-v2/pull/3804"
+                  },
+                  {
+                    "title": "Contributors",
+                    "short": false,
+                    "value": "omar/nlabib/nmohamed"
+                  }
+                ]
               }
             ]
           }
