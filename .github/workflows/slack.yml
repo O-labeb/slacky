@@ -43,7 +43,7 @@ jobs:
                   {
                     "title": "Contributors",
                     "short": false,
-                    "value": "* omar\n* labib\n* mohamed"
+                    "value": "- omar\n- labib\n- mohamed"
                   }
                 ]
               }
