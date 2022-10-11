@@ -23,20 +23,20 @@ jobs:
         # For posting a simple plain text message
         payload: |
           {
-        "text": "Deployment finished (Completed)",
-        "attachments": [
-          {
-            "pretext": "Deployment finished",
-            "color": "28a745",
-            "fields": [
+            "text": "Deployment finished (Completed)",
+            "attachments": [
               {
-                "title": "Status",
-                "short": true,
-                "value": "Completed"
+                "pretext": "Deployment finished",
+                "color": "28a745",
+                "fields": [
+                  {
+                    "title": "Status",
+                    "short": true,
+                    "value": "Completed"
+                  }
+                ]
               }
             ]
           }
-        ]
-      }
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
