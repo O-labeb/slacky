@@ -13,4 +13,4 @@ jobs:
         uses: "alstr/todo-to-issue-action@v4"
         with:
           AUTO_ASSIGN: true
-          LABELS: "label 1"
+          LABEL: "label 1"
